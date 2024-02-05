@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:drawing_app/Core/Utils/Constants.dart';
 import 'package:drawing_app/Screens/Home/HomeScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class _SplashScreenBodyState extends State<SplashScreenBody> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: KMainColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
